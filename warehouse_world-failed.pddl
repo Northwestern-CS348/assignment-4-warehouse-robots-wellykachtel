@@ -54,4 +54,4 @@
       :precondition (and (started ?s) (ships ?s ?o) (packing-at ?s ?l))
       :effect (and (complete ?s) (not (started ?s)) (available ?l) (not (packing-at ?s ?l)))
    )
-)
+   
